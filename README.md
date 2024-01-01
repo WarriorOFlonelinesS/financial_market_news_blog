@@ -44,6 +44,7 @@ Sharetrade is a financial market news blog app designed to provide users with up
 
 * [![Next][Next.js]][Next-url]
 * [![React][React.js]][React-url]
+* [![Firebase][Firebase]][Firebase-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -53,7 +54,6 @@ Sharetrade is a financial market news blog app designed to provide users with up
 ## Getting Started
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
 * npm
   ```sh
   npm install npm@latest -g
@@ -104,7 +104,9 @@ Project Link: [Sharetrade](https://github.com/WarriorOFlonelinesS/financial_mark
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 [product-screenshot]: images/screenshot.png
-[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
+[Next.js]: https://img.shields.io/badge/next.js-20232A?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
+[Firebase]: https://img.shields.io/badge/firebase-20232A?style=for-the-badge&logo=firebase&logoColor=yellow
+[Firebase-url]: https://firebase.google.com/
