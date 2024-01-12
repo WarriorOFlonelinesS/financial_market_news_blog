@@ -1,9 +1,15 @@
-// Компонент карточки
-import Link from 'next/link'
-import Image from "next/image"
+import Link from 'next/link';
+import Image from "next/image";
 
-export const Cards = ({ item, id }) => {
+interface CardsProps {
+    item: {
+        imageUrl: string;
+        title: string;
+    };
+    id: number;
+}
 
+export const Cards: React.FC<CardsProps> = ({ item, id }) => {
     return (
         <div className="card" style={{
             width: '423px',
@@ -17,5 +23,6 @@ export const Cards = ({ item, id }) => {
             <div className="card-body">
                 <p className="card-text">{item.title}</p>
             </div>
-        </div>)
-}
+        </div>
+    );
+};
