@@ -12,8 +12,7 @@ const firebaseConfig = {
   storageBucket: "financial-blog-61c66.appspot.com",
   messagingSenderId: "844177809784",
   appId: "1:844177809784:web:d3e98acc7152e19ce5288d",
-};
-
+}
 // Initialize Firebase
 const app = firebase.initializeApp(firebaseConfig);
 export const db = app.firestore();
