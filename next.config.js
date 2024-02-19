@@ -4,7 +4,7 @@ const nextConfig = {
     domains: ["images.mktw.net", "images.barrons.com", "s.wsj.net"],
    
   },
-  distDir: 'build',
+  distDir: '.next',
 };
 
 module.exports = nextConfig;

@@ -4,7 +4,6 @@ import Image from "next/image"
 import { Loading } from "../../../Loading"
 import 'firebase/firestore'
 import { useArticle } from "../../../customHooks/useArticle"
-// Указание типа входящего индекса
 type Props = {
     params: {
         id: number
