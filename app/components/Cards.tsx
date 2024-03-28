@@ -17,7 +17,7 @@ export const Cards: React.FC<CardsProps> = ({ item, id }) => {
             borderRadius: '0px',
             background: '#112B3E'
         }}>
-            <Link href={`/components/articles/${id}`}>
+            <Link href={`/pages/articles/${id}`}>
                 <Image className="card__img" src={item.imageUrl} width={420} height={220} alt="Card image cap" />
             </Link>
             <div className="card-body">
